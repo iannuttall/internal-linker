@@ -14,6 +14,18 @@ pip install -r requirements.txt
 
 Make sure you rename the .env-example file to .env and add the correct paths to your input and output folders. By default, these are set to the input and output folders in this repo so you can test it out.
 
+Also make sure to install the en_core_web_md model for spaCy:
+
+```
+pipenv run python -m spacy download en_core_web_md
+```
+
+If you're not using pipenv, from your virtual environment, run:
+
+```
+python -m spacy download en_core_web_md
+```
+
 ## Usage
 
 I have included a few articles from [Practical Programmatic](https://practicalprogrammatic.com) in the `input` folder.

@@ -1,5 +1,6 @@
 .env
 *.csv
 *.txt
+!requirements.txt
 output/*.md
 remove-links.py
